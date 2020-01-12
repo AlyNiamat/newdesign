@@ -1,0 +1,507 @@
+*{margin:0px auto;}
+		header{
+			border:1px solid black;
+			width: 1300px;
+			height: 250px;
+			margin-top: 20px;
+			background-color: black;
+			box-shadow: 1px 1px 3px 3px;
+			color: gray;
+		}
+		header .aa .img{
+			margin-top: 50px;
+		}
+		 header .navi{
+		 	margin-left: 500px;
+		 	margin-top: -220px;
+		 }
+
+		header .navi ul li{
+			float: left;
+			width: 150px;
+			height: 50px;
+			list-style: none;
+			line-height: 0px;
+			font-size: 20px;
+			font-family: arial;
+			
+		}
+		header .navi a{
+			color: white;
+			text-decoration:none;
+		}
+		header .zz{
+			margin-left: 1250px;
+			color: white;
+			line-height: 40px;
+			margin-top: -100px;
+		}
+
+		body{
+			background: linear-gradient(to right, lightgray 30% , white 70%);
+		}
+
+		.animation{
+			border:1px solid black;
+			width: 1300px;
+			height: 550px;
+			box-shadow: 1px 1px 3px 3px;
+			color: gray;
+			animation: ani 15s infinite;
+		}
+
+		@keyframes ani{
+			0% {left: 0px; top: 0px;}
+			25%
+			50%
+			75%
+			100%
+		}
+
+		.n{
+			
+			width:1280px;
+			height: 45px;
+			
+			font-size: 20px;
+			font-family: arial;
+			color: gray;
+
+		}
+
+		.container{
+			
+			width: 1300px;
+			height: 380px;
+			margin-top: 1px;
+			
+			color: gray;
+		}
+
+		.container .apps{
+			
+			width: 1280px;
+			height: 340px;
+			margin-top: 20px;
+			
+		}
+
+		.container .apps .a{
+			
+			width: 300px;
+			height: 100px;
+			margin-left: 18px;
+			margin-top: 5px;
+			
+		}
+
+		.container .apps .a:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .b{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 333px;
+		}
+
+		.container .apps .b:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .c{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 648px;
+		}
+
+		.container .apps .c:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .d{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 963px;
+		}
+
+		.container .apps .d:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .g{
+			
+			width: 300px;
+			height: 100px;
+			margin-left: 18px;
+			margin-top: 5px;
+			
+		}
+
+		.container .apps .g:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .h{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 333px;
+		}
+
+		.container .apps .h:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .i{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 648px;
+		}
+
+		.container .apps .i:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .j{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 963px;
+
+		}
+
+		.container .apps .j:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .k{
+			
+			width: 300px;
+			height: 100px;
+			margin-left: 18px;
+			margin-top: 5px;
+			
+		}
+
+		.container .apps .k:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .l{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 333px;
+		}
+
+		.container .apps .l:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .m{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 648px;
+		}
+		.container .apps .m:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.container .apps .n{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 963px;
+			background-color: none;
+		}
+
+		.container .apps .n:hover{
+			border:1px solid black;
+			background-color: gray;
+			color: white;
+		}
+
+		.p{
+			
+			box-shadow: 1px 1px 2px 3px;
+			width:1300px;
+			height: 45px;
+			background-color: limegreen;
+			font-family: arial;
+			color: gray;
+			font-size: 20px;
+
+		}
+		
+
+		.popular{
+			
+			width: 1300px;
+			height: 400px;
+			margin-top: 0px;
+			
+			color: gray;
+		}
+
+		.popular .pop{
+			
+			width: 1280px;
+			height: 362px;
+			margin-top: 20px;
+		}
+
+		.popular .pop .tt{
+			
+			width: 300px;
+			height: 100px;
+			margin-left: 18px;
+			margin-top: 5px;
+			
+		}
+
+		.popular .pop .uu{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 333px;
+		}
+
+		.popular .pop .vv{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 648px;
+		}
+
+		.popular .pop .ww{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 963px;
+		}
+
+		.popular .pop .xx{
+			
+			width: 300px;
+			height: 100px;
+			margin-left: 18px;
+			margin-top: 5px;
+			
+		}
+
+		.popular .pop .yy{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 333px;
+		}
+
+		.popular .pop .zz{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 648px;
+		}
+
+		.popular .pop .rr{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 963px;
+		}
+
+		.popular .pop .mm{
+			
+			width: 300px;
+			height: 100px;
+			margin-left: 18px;
+			margin-top: 5px;
+			
+		}
+
+		.popular .pop .qq{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 333px;
+		}
+
+		.popular .pop .ee{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 648px;
+		}
+
+		.popular .pop .ll{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 963px;
+		}
+
+	footer{
+		border: 1px solid black;
+		width: 1300px;
+		height: 350px;
+		background-color: black;
+		margin-top: -0px;
+	}
+	footer .one{
+		
+		width: 320px;
+		height:300px;
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	footer .one h1{
+		margin-top: 10px;
+		
+		color:white;
+		margin-left: 3px;
+		font-family: arial;
+		font-size: 20px;
+		
+	}
+	footer .one p{
+		width: 300px;
+		text-align: justify;
+		margin-top: 20px;
+		line-height: 30px;
+		color: white;
+		font-family: arial;
+		font-size:15px;
+	}
+	footer .heading{
+		
+		width:320px;
+		height:30px;
+		margin-top: -200px;
+		
+	}
+	footer .heading h1{
+		text-align: center;
+		font-family: arial;
+		font-size: 20px;
+		color: white;
+		margin-top: 0px;
+	}
+
+	footer .footernav{
+		
+		width: 900px;
+		height:340px;
+		margin-left: 370px;
+		margin-top: -180px;
+	}
+
+	footer .footernav .first{
+		position: relative;
+	}
+	footer .footernav .first h3{
+		margin-top: 50px;
+		margin-left: 20px;
+		font-size: 20px;
+		font-family: arial;
+	}
+
+	footer .footernav .first ul{
+		list-style: none;
+		line-height: 20px;
+		font-size: 15px;
+		font-family: arial;
+		margin-top: 10px;
+		color: lightgray;
+	}
+	footer .footernav .second{
+		position: relative;
+	}
+
+	footer .footernav .second h3{
+		margin-top: 50px;
+		margin-left: 20px;
+		font-size: 20px;
+		font-family: arial;
+		color: white;
+		border-bottom: 1px solid white;
+	}
+	footer .footernav .second .gg{
+		margin-left: 20px;
+		font-size: 15px;
+		font-family: arial;
+		color: lightgray;
+	}
+	footer .socialicon h3{
+		margin-top: 50px;
+		margin-left: 20px;
+		font-size: 20px;
+		font-family: arial;
+		color: white;
+		border-bottom: 1px solid white;
+	}
+	footer .third .socialicon .zz{
+		margin-top: 20px;
+		line-height: 40px;
+		color: white;
+		font-size: 15px;
+		font-family: arial;
+	}
+	footer .third .socialicon .zz img:hover{
+		border: 1px solid lightblue;
+		background-color: gray;
+		transition: 1s;
+		transform: scale(1.51);
+	}
+	footer .footernav .third{
+		position: relative;
+	}
+
+	footer .mainfooter{
+		margin-left: 25px;
+	}

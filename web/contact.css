@@ -1,0 +1,66 @@
+<style>
+	*{margin:0px auto;}
+.ii{
+			text-align: center;
+			font-family: arial;
+			font-size: 15px;
+			border-bottom: 1px solid green;
+			width: 1300px;
+			margin-top: 10px;
+
+		}
+
+	input[type="text"]{
+		box-shadow: 1px 1px 2px 3px;
+		color: darkgray;
+		font-family: arial;	
+
+	}
+
+	input[type="email"]{
+		box-shadow: 1px 1px 2px 3px;
+		color: darkgray;	
+		font-family: arial;
+
+	}
+
+	input[type="password"]{
+		box-shadow: 1px 1px 2px 3px;
+		color: darkgray;	
+		font-family: arial;
+	}
+
+	textarea[type="text"]{
+		box-shadow: 1px 1px 2px 3px;
+		color: darkgray;
+		
+		font-family: arial;
+		resize: none;
+	}
+
+	button{
+		width: 70px; 
+		height: 30px; 
+		background-color: orange; 
+		box-shadow: 1px 1px 2px 3px; 
+		color: gray; 
+		margin-left: 435px;
+	}
+
+	.tab{
+		margin-left: -500px;
+	}
+
+	.map{
+		box-shadow: 1px 1px 2px 3px;
+		width: 400px;
+		height:300px;
+		margin-left: 800px;
+		margin-top: -360px;
+
+	}
+
+	.map iframe{
+		width:400px;
+		height:300px;
+	}

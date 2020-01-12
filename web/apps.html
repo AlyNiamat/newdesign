@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AndroidStore</title>
+	<link rel="shortcut icon" href="../img/icon.jpg">
+	<link rel="stylesheet" href="style.css">
+	<style>
+		*{margin:0px auto;}
+		header{
+			border:1px solid black;
+			width: 1300px;
+			height: 250px;
+			margin-top: 20px;
+			background-color: black;
+			box-shadow: 1px 1px 3px 3px;
+			color: gray;
+		}
+		header .aa .img{
+			margin-top: 50px;
+		}
+		 header .navi{
+		 	margin-left: 500px;
+		 	margin-top: -220px;
+		 }
+
+		header .navi ul li{
+			float: left;
+			width: 150px;
+			height: 50px;
+			list-style: none;
+			line-height: 0px;
+			font-size: 20px;
+			font-family: arial;
+			
+		}
+		header .navi a{
+			color: white;
+			text-decoration:none;
+		}
+		header .zz{
+			margin-left: 1250px;
+			color: white;
+			line-height: 40px;
+			margin-top: -100px;
+		}
+
+		.n{
+			
+			width:1280px;
+			height: 45px;
+			
+			font-size: 20px;
+			font-family: arial;
+			color: gray;
+
+		}
+
+		body{
+			background: linear-gradient(to right, lightgray 30% , white 70%);
+		}
+
+		.napps{
+			
+			width: 1300px;
+			height: 480px;
+			margin-top: 1px;
+			
+			color: gray;
+		}
+
+		.napps .apps{
+			
+			width: 1280px;
+			height: 340px;
+			margin-top: 20px;
+			
+		}
+
+		.napps .apps .a{
+			
+			width: 300px;
+			height: 100px;
+			margin-left: 18px;
+			margin-top: 5px;
+			
+		}
+
+		.napps .apps .b{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 333px;
+		}
+
+		.napps .apps .c{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 648px;
+		}
+
+		.napps .apps .d{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 963px;
+		}
+
+		.napps .apps .g{
+			
+			width: 300px;
+			height: 100px;
+			margin-left: 18px;
+			margin-top: 5px;
+			
+		}
+
+		.napps .apps .h{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 333px;
+		}
+
+		.napps .apps .i{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 648px;
+		}
+
+		.napps .apps .j{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 963px;
+
+		}
+
+		.napps .apps .k{
+			
+			width: 300px;
+			height: 100px;
+			margin-left: 18px;
+			margin-top: 5px;
+			
+		}
+
+		.napps .apps .l{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 333px;
+		}
+
+		.napps .apps .m{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 648px;
+		}
+
+		.napps .apps .n{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 963px;
+			background-color: none;
+		}
+
+		.napps .apps .tt{
+			
+			width: 300px;
+			height: 100px;
+			margin-left: 18px;
+			margin-top: 5px;
+			
+		}
+
+		.napps .apps .uu{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 333px;
+		}
+
+		.napps .apps .vv{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 648px;
+		}
+
+		.napps .apps .ww{
+			
+			width: 300px;
+			height: 100px;
+			margin-top: -102px;
+			margin-left: 963px;
+		}
+
+		footer{
+		border: 1px solid black;
+		width: 1300px;
+		height: 350px;
+		background-color: black;
+		margin-top: -0px;
+	}
+	footer .one{
+		
+		width: 320px;
+		height:300px;
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	footer .one h1{
+		margin-top: 10px;
+		
+		color:white;
+		margin-left: 3px;
+		font-family: arial;
+		font-size: 20px;
+		
+	}
+	footer .one p{
+		width: 300px;
+		text-align: justify;
+		margin-top: 20px;
+		line-height: 30px;
+		color: white;
+		font-family: arial;
+		font-size:15px;
+	}
+	footer .heading{
+		
+		width:320px;
+		height:30px;
+		margin-top: -200px;
+		
+	}
+	footer .heading h1{
+		text-align: center;
+		font-family: arial;
+		font-size: 20px;
+		color: white;
+		margin-top: 0px;
+	}
+
+	footer .footernav{
+		
+		width: 900px;
+		height:340px;
+		margin-left: 395px;
+		margin-top: -180px;
+	}
+
+	footer .footernav .first{
+		position: relative;
+	}
+	footer .footernav .first h3{
+		margin-top: 50px;
+		margin-left: 20px;
+		font-size: 20px;
+		font-family: arial;
+	}
+
+	footer .footernav .first ul{
+		list-style: none;
+		line-height: 20px;
+		font-size: 15px;
+		font-family: arial;
+		margin-top: 10px;
+		color: lightgray;
+	}
+	footer .footernav .second{
+		position: relative;
+	}
+
+	footer .footernav .second h3{
+		margin-top: 50px;
+		margin-left: 20px;
+		font-size: 20px;
+		font-family: arial;
+		color: white;
+		border-bottom: 1px solid white;
+	}
+	footer .footernav .second .gg{
+		margin-left: 20px;
+		font-size: 15px;
+		font-family: arial;
+		color: lightgray;
+	}
+	footer .socialicon h3{
+		margin-top: 50px;
+		margin-left: 20px;
+		font-size: 20px;
+		font-family: arial;
+		color: white;
+		border-bottom: 1px solid white;
+	}
+	footer .third .socialicon .zz{
+		margin-top: 20px;
+		line-height: 40px;
+		color: white;
+		font-size: 15px;
+		font-family: arial;
+	}
+	footer .third .socialicon .zz img:hover{
+		border: 1px solid lightblue;
+		background-color: gray;
+		transition: 1s;
+		transform: scale(1.51);
+	}
+	footer .footernav .third{
+		position: relative;
+	}
+</style>
+</head>
+<body>
+
+	<header>
+		<div class="aa">
+			<div class="img">
+				<img src="../img/aap.png">
+			</div>
+		<div class="navi">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="apps.html">Apps</a></li>
+				<li><a href="">Games</a></li>
+				<li><a href="">Tools</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+		</div>
+		<br>
+		<div class="search">
+			<input type="search" placeholder="search for android apps and games on this store" style="width: 500px; height:35px; box-shadow: 1px 1px 5px 7px; color: seagreen; margin-left: 540px; margin-top: 40px;">
+			<br>
+		</div>
+		</div>
+		<div class="zz">
+				<a href="https://facebook.com">
+				<img src="../img/facebook.png" width="20px" height="15px" style="margin-left:20px; background-color: lightblue;" />
+					</a>
+				
+					<br />
+				<a href="https://twitter.com/">
+				<img src="../img/twitter.png" width="20px" height="15px" style="margin-left:20px; "/>
+					</a>
+				
+					<br />
+				<a href="https://www.instagram.com/">
+				<img src="../img/instagram.png" width="20px" height="15px" style="margin-left:20px;" />
+					</a>
+				
+					<br />
+				<a href="https://www.youtube.com/">
+				<img src="../img/youtube.png" width="20px" height="25px" style="margin-left:20px; margin-top: -50px;" />
+					</a>
+				</div>
+	</header>
+	<br>
+		<div class="n" style=" margin-top: 20px; background-color: green; box-shadow: 1px 1px 2px 3px;">
+		<h3 style=" text-align: center; margin-left: 20px; margin-top: 15px; line-height: 40px; color: white;">Apps Category~</h3>
+	</div>
+
+	<div class="napps">
+		<div class="apps">
+			<div class="a">
+				<img src="../img/apps/zapya.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download Zapya APK </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v1.7.0 </p>
+				<a href="https://apkplanet.net/download/apk/com.KillerBeanStudios.EnemyStrike.apk"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				
+			</div>
+
+			<div class="b">
+				<img src="../img/apps/mg.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download KingRoot </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v5.4.0 </p>
+				<a href="https://apkplanet.net/download/apk/com.kingroot.kinguser_v5.4.0-204_Android-2.3.apk"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				
+			</div>
+
+			<div class="c">
+				<img src="../img/apps/mobilism.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download Mobilism Apk </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v2.0 </p>
+				<a href="https://apkplanet.net/download/apk/mobilism.apk"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				
+			</div>
+
+			<div class="d">
+				<img src="../img/apps/dploit.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download DS Dploit </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v1.0.31b </p>
+				<a href="https://apkplanet.net/download/apk/it.evilsocket.dsploit-1.0.31b-free.apk"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				</div>
+				<br>
+
+			<div class="g">
+				<img src="../img/apps/beauty.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download Beauty Cam </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v8.1.15 </p>
+				<a href="https://apkplanet.net/"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+			</div>
+
+			<div class="h">
+				<img src="../img/apps/flash.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download Adobe Flash </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v11.1 </p>
+				<a href="https://apkplanet.net/"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				
+			</div>
+
+			<div class="i">
+				<img src="../img/apps/fake.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download Fake GPS </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v4.9.5 </p>
+				<a href="https://apkplanet.net/"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				
+			</div>
+
+			<div class="j">
+				<img src="../img/apps/battery.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download Battery Saver </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v4.9.4 </p>
+				<a href="https://apkplanet.net"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				</div>
+				<br>
+
+				<div class="k">
+				<img src="../img/apps/freedom.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download Freedom APK </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">all versions </p>
+				<a href="https://apkplanet.net/"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+			</div>
+
+			<div class="l">
+				<img src="../img/apps/lucky.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download LuckPatcher </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v1.4.06 </p>
+				<a href="https://apkplanet.net"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				
+			</div>
+
+			<div class="m">
+				<img src="../img/apps/deezer.png" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download Deezer Apk </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v6.0.0.115 </p>
+				<a href="https://apkplanet.net"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				
+			</div>
+
+			<div class="n">
+				<img src="../img/apps/droid.png" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download Droid Buddy </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v2.0 </p>
+				<a href="https://apkplanet.net/"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				</div>
+				<br>
+
+			<div class="tt">
+				<img src="../img/apps/4g.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download 4G Liker </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v4.7.1 </p>
+				<a href="https://apkplanet.net/download/apk/com.KillerBeanStudios.EnemyStrike.apk"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				
+			</div>
+
+			<div class="uu">
+				<img src="../img/apps/hack.png" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download Hack apk </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">all versions </p>
+				<a href="https://apkplanet.net/download/apk/com.kingroot.kinguser_v5.4.0-204_Android-2.3.apk"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				
+			</div>
+
+			<div class="vv">
+				<img src="../img/apps/4g.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download 4G Liker Apk </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v1.0 </p>
+				<a href="https://apkplanet.net/download/apk/mobilism.apk"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				
+			</div>
+
+			<div class="ww">
+				<img src="../img/apps/wifi.jpg" style="width: 100px; height: 100px;">
+				<h3 style="margin-left: 110px; margin-top: -90px; font-family: Helvetica; font-size: 16px;"> Download WiFi hacker </h3>
+				<p style="margin-left: 110px; font-size: 20px; font-family: time new roman;">v4.0.0 </p>
+				<a href="https://apkplanet.net/download/apk/it.evilsocket.dsploit-1.0.31b-free.apk"><img src="../img/download.png" style="width: 150px; margin-left: 130px; margin-top: -15px;"></a>
+				</div>
+
+		</div>
+	</div>
+	<br>
+
+	<footer>
+		<div class="mainfooter">
+			<h3 style="width: 230px; margin-left: 20px; margin-top: 60px; font-size: 20px; font-family: arial; color: white;">Sign Up with Email</h3>
+			<br>
+			<input type="Email" name="Enter your mail" style="width: 230px; height: 30px; margin-left: 20px; box-shadow: 1px 1px 5px 5px; color:gray;" placeholder="Enter Your Email Address"> <input type="Submit" name="Signup" style="width: 60px; height: 30px; box-shadow: 1px 1px 2px 2px; color: white; background-color: red; border: 1px solid black;">
+				<br>
+				<p style="font-size: 15px; font-family: arial; margin-left: 20px; margin-top: 10px; width: 250px; color: white; border-bottom: 1px solid white; ">Subscribe us through Email address to stay connected with us</p>
+			</div>
+
+			<div class="footernav">
+				<div class="first" style=" width: 260px; height: 300px; margin-left: 30px; margin-top: 10px;">
+					<h3 style="color: white; border-bottom:1px solid white;" >Products</h3>
+					<ul>
+						<li> Actions Games</li>
+						<li> Sports Games</li>
+						<li> Managing Apps</li>
+						<li> Rooting Apps</li>
+						<li> Marketing Apps</li>
+						<li> Android Emulators</li>
+						<li> Free & Paid Apps</li>
+						<li> Android Tools</li>
+						<a href="https://www.apkplanet.net/submit-app/" style="color: white;"><li> Submit Apps</li></a>
+					</ul>
+
+				</div>
+				<div class="second" style=" width: 260px; height: 300px; margin-top: -350px; margin-left: 325px;">
+					<h3>Contact US</h3>
+					<br>
+					<div class="gg">
+					<h4 style="color: white;">Address</h4>
+					
+					<p>https://www.apkplanet.com/</p>
+					
+					<h4 style="color: white;">Phone Number</h4>
+					<p>+92 310 9327098</p>
+					
+					<h4 style="color: white;">Email Address</h4>
+					<p> Ali.Niamat.Nazir@gmail.com</p>
+					
+					<h4 style="color: white;">Working Days</h4>
+					<p>Working days! Mon-Saturday 09AM to 5PM</p>
+				</div>
+
+				</div>
+				<div class="third" style=" width: 260px; height: 300px; margin-top: -350px; margin-left: 620px;">
+					<div class="socialicon">
+						<h3>Follow US</h3>
+						<div class="zz">
+					<a href="https://www.facebook.com/">
+					<img src="../img/facebook.png" width="20px" height="15px" style="margin-left:20px; background-color: lightblue;" />
+					</a>
+					<a href="https://www.facebook.com/"><span style="margin-left: 5px; color: white;">Facebook</span></a>
+					<br />
+					<a href="https://twitter.com/">
+					<img src="../img/twitter.png" width="20px" height="15px" style="margin-left:20px;"/>
+					</a>
+					<a href="https://twitter.com/"><span style="margin-left: 5px; color: white;">Twitter</span></a>
+					<br />
+					<a href="https://www.instagram.com/">
+					<img src="../img/instagram.png" width="20px" height="15px" style="margin-left:20px;" />
+					</a>
+					<a href="https://www.instagram.com/"><span style="margin-left: 5px; color: white;">Instagram</span></a>
+					<br />
+					<a href="https://www.youtube.com/">
+					<img src="../img/youtube.png" width="20px" height="25px" style="margin-left:20px; margin-top: -50px;" />
+					</a>
+					<a href="https://www.youtube.com/"><span style="margin-left: 5px; color: white;">Youtube</span></a>
+				</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="bb">
+				<center><h3 style="margin-top: -70px; margin-left: -1000px; color: white; font-family: arial; font-size: 15px;">Copyright 2020. All Right Reserved</h3></center>
+
+			</div>
+</footer>
+
+</body>
+</html>

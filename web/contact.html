@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="shortcut icon" href="../img/icon.jpg">
+	<link rel="stylesheet" href="contact.css">
+
+	<style>
+		/* Css coding */
+		*{margin:0px auto;}
+		header{
+			border:1px solid black;
+			width: 1300px;
+			height: 250px;
+			margin-top: 20px;
+			background-color: black;
+			box-shadow: 1px 1px 3px 3px;
+			color: gray;
+		}
+		header .aa .img{
+			margin-top: 50px;
+		}
+		 header .navi{
+		 	margin-left: 500px;
+		 	margin-top: -220px;
+		 }
+
+		header .navi ul li{
+			float: left;
+			width: 150px;
+			height: 50px;
+			list-style: none;
+			line-height: 0px;
+			font-size: 20px;
+			font-family: arial;
+			
+		}
+		header .navi a{
+			color: white;
+			text-decoration:none;
+		}
+		header .zz{
+			margin-left: 1250px;
+			color: white;
+			line-height: 40px;
+			margin-top: -100px;
+		}
+
+		body{
+			background: linear-gradient(to right, lightgray 30% , white 70%);
+		}
+
+		.tt .aa{
+			text-align: center;
+			font-family: arial;
+			font-size: 15px;
+			border-bottom: 1px solid green;
+			width: 1300px;
+		}
+
+		.tt .bb{
+			
+			width: 1300px;
+			height: 100px;
+			margin-top: 40px;
+			background-color: darkgray;
+		}
+		.tt .bb p{
+			text-align: justify;
+			width: 1200px;
+			margin-top: -40px;
+			line-height: 25px;
+			margin-left: 90px;
+			font-family: arial;
+			font-size: 15px;
+		}
+
+		.tt .bb img{
+			margin-top: 35px;
+			margin-left: 20px;
+		}
+
+		.tt .cc{
+			
+			width: 1300px;
+			height: 100px;
+			margin-top: 40px;
+			background-color: darkgray;
+		}
+
+		.tt .cc img{
+			margin-top: 30px;
+			margin-left: 20px;
+		}
+
+		.tt .cc p{
+			text-align: justify;
+			width: 1200px;
+			margin-top: -50px;
+			line-height: 25px;
+			margin-left: 90px;
+			font-family: arial;
+			font-size: 15px;
+
+		}
+
+		.tt .dd h2{
+			text-align: center;
+			font-size: 20px;
+			font-family: arial;
+			margin-top: 20px;
+			border-bottom: 1px solid green;
+			width: 1300px;
+		}
+
+		.tt .ee{
+			border:1px solid black;
+			width: 1300px;
+			height:300px;
+			margin-top: 40px;
+			background-color: gainsboro;
+		}
+
+		.tt .ee p{
+			font-size: 15px;
+			font-family: arial;
+			margin-top: 30px;
+			line-height: 40px;
+			margin-left: 20px;
+		}
+
+	footer{
+		border: 1px solid black;
+		width: 1300px;
+		height: 350px;
+		background-color: black;
+		margin-top: 50px;
+	}
+	footer .one{
+		
+		width: 320px;
+		height:300px;
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	footer .one h1{
+		margin-top: 10px;
+		
+		color:white;
+		margin-left: 3px;
+		font-family: arial;
+		font-size: 20px;
+		
+	}
+	footer .one p{
+		width: 300px;
+		text-align: justify;
+		margin-top: 20px;
+		line-height: 30px;
+		color: white;
+		font-family: arial;
+		font-size:15px;
+	}
+	footer .heading{
+		
+		width:320px;
+		height:30px;
+		margin-top: -200px;
+		
+	}
+	footer .heading h1{
+		text-align: center;
+		font-family: arial;
+		font-size: 20px;
+		color: white;
+		margin-top: 0px;
+	}
+
+	footer .footernav{
+		
+		width: 900px;
+		height:340px;
+		margin-left: 395px;
+		margin-top: -180px;
+	}
+
+	footer .footernav .first{
+		position: relative;
+	}
+	footer .footernav .first h3{
+		margin-top: 50px;
+		margin-left: 20px;
+		font-size: 20px;
+		font-family: arial;
+	}
+
+	footer .footernav .first ul{
+		list-style: none;
+		line-height: 20px;
+		font-size: 15px;
+		font-family: arial;
+		margin-top: 10px;
+		color: lightgray;
+	}
+	footer .footernav .second{
+		position: relative;
+	}
+
+	footer .footernav .second h3{
+		margin-top: 50px;
+		margin-left: 20px;
+		font-size: 20px;
+		font-family: arial;
+		color: white;
+		border-bottom: 1px solid white;
+	}
+	footer .footernav .second .gg{
+		margin-left: 20px;
+		font-size: 15px;
+		font-family: arial;
+		color: lightgray;
+	}
+	footer .socialicon h3{
+		margin-top: 50px;
+		margin-left: 20px;
+		font-size: 20px;
+		font-family: arial;
+		color: white;
+		border-bottom: 1px solid white;
+	}
+	footer .third .socialicon .zz{
+		margin-top: 20px;
+		line-height: 40px;
+		color: white;
+		font-size: 15px;
+		font-family: arial;
+	}
+	footer .third .socialicon .zz img:hover{
+		border: 1px solid lightblue;
+		background-color: gray;
+		transition: 1s;
+		transform: scale(1.51);
+	}
+	footer .footernav .third{
+		position: relative;
+	}
+
+	</style>
+
+<script>
+function ali(){
+    alert("Your Message has been successfully submitted");	
+		}
+</script>
+	</head>
+<body>
+
+	<body>
+
+	<header>
+		<div class="aa">
+			<div class="img">
+				<img src="../img/aap.png">
+			</div>
+		<div class="navi">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="apps.html">Apps</a></li>
+				<li><a href="">Games</a></li>
+				<li><a href="">Tools</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+		</div>
+		<br>
+		<div class="search">
+			<input type="search" placeholder="search for android apps and games on this store" style="width: 500px; height:35px; box-shadow: 1px 1px 5px 7px; color: seagreen; margin-left: 540px; margin-top: 40px;">
+			<br>
+		</div>
+		</div>
+		<div class="zz">
+				<a href="https://facebook.com">
+				<img src="../img/facebook.png" width="20px" height="15px" style="margin-left:20px; background-color: lightblue;" />
+					</a>
+				
+					<br />
+				<a href="https://twitter.com/">
+				<img src="../img/twitter.png" width="20px" height="15px" style="margin-left:20px; "/>
+					</a>
+				
+					<br />
+				<a href="https://www.instagram.com/">
+				<img src="../img/instagram.png" width="20px" height="15px" style="margin-left:20px;" />
+					</a>
+				
+					<br />
+				<a href="https://www.youtube.com/">
+				<img src="../img/youtube.png" width="20px" height="25px" style="margin-left:20px; margin-top: -50px;" />
+					</a>
+				</div>
+	</header>
+
+	<br>
+	<div class="tt">
+		<div class="aa"><h2>CONTACT</h2>
+		</div>
+
+		<div class="bb">
+			<img src="../img/mess.webp">
+			<br>
+			<p>We love hearing from our customers. You can email us with any questions at <b>apk.planet.net@gmail.com</b>. We will respond back to you email as quickly as possible within a span of 2 Hours. You can call us anytime on 0310-9327-098 from Monday to Saturday, between 09:00 a.m. to 11:00 p.m.</p>
+			
+		</div>
+
+		<div class="cc">
+			<img src="../img/phone.webp">
+			<br>
+			<p><b>Call Us : 0310-9327-098</b><br>
+			One of our Experienced Customer Support Representatives will be taking your phone call and assist you for any of your concerns or queries!</p>
+			
+		</div>
+
+	</div>
+		<div class="ii"><h2> CONTACT US HERE</h2>
+		</div>
+		<br>
+
+<div class="tab">		
+<form onsubmit="return ali()">
+<table>
+<tr>
+<th style="font-family: arial; font-size: 13px;"> First Name: </th>
+<td > <input type="text" placeholder="enter your first name" size="68" required="required" pattern="[a-z A-Z]{1,30}"/> </td>
+</tr>
+<tr>
+<th style="font-family: arial; font-size: 13px;"> Last Name: </th>
+<td> <input type="text" placeholder="enter your last name" required="required" size="68" pattern="[a-z A-Z]{1,30}"/> </td>
+</tr>
+
+
+<tr>
+<th style="font-family: arial; font-size: 13px;"> Email: </th>
+<td colspan="3"> <input type="email" placeholder="enter your email" size="68" required="required"/></td>
+
+</tr>
+
+<tr>
+<th style="font-family: arial; font-size: 13px;"> Passowrd: </th>
+<td colspan="3"> <input type="password" placeholder="enter your strong password" size="68" required="required"/></td>
+</tr>
+
+
+<tr>
+<th style="font-family: arial; font-size: 13px;"> Gender: </th>
+<td colspan="3"> 
+<input type="radio" name="nm" required="required" /> male
+<input type="radio" name="nm"/> female
+<input type="radio" name="nm"/> others
+</td>
+</tr>
+
+<tr>
+<th style="font-family: arial; font-size: 13px;"> Country </th>
+<td colspan="3">
+<select style="width:200px;" required="required">
+<option> Select </option>
+<option> Pakistan </option>
+<option> India </option>
+<option> China </option>
+<option> Iraq </option>
+<option> Iran </option>
+<option> United States</option>
+<option> France </option>
+<option> Germany </option>
+<option> Brazil </option>
+<option> Indonesia </option>
+<option> South Africa </option>
+<option> SriLanka </option>
+<option> Afghanistan </option>
+<option> Australia </option>
+<option> UAE </option>
+<option> Portugal </option>
+<option> Other </option>
+</select>
+</td>
+</tr>
+
+<tr>
+<th style="font-family: arial; font-size: 13px;"> Message </th>
+<td colspan="3">
+<textarea type="text" maxlength="800" cols="69" rows="10" placeholder="enter your queries" required="required"/></textarea>
+</td>
+
+</tr>
+
+<tr>
+<th></th>
+<td colspan="3">
+<button style="color: white;"> Submit </button>
+</td>
+</tr>
+
+</table>
+	</form>
+</div>
+<br>
+
+<div class="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314454.8346635015!2d72.92296342849126!3d35.780969268437396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e5d7ad872d80b5%3A0x9882624d9785f028!2sGilgit-Baltistan!5e0!3m2!1sen!2s!4v1578648965694!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+
+<br/>
+<footer>
+		<div class="mainfooter">
+			<h3 style="width: 230px; margin-left: 20px; margin-top: 60px; font-size: 20px; font-family: arial; color: white;">Sign Up with Email</h3>
+			<br>
+			<input type="Email" name="Enter your mail" style="width: 230px; height: 30px; margin-left: 20px; box-shadow: 1px 1px 5px 5px; color:gray;" placeholder="Enter Your Email Address"> <input type="Submit" name="Signup" style="width: 60px; height: 30px; box-shadow: 1px 1px 2px 2px; color: white; background-color: red; border: 1px solid black;">
+				<br>
+				<p style="font-size: 15px; font-family: arial; margin-left: 20px; margin-top: 10px; width: 250px; color: white; border-bottom: 1px solid white; ">Subscribe us through Email address to stay connected with us</p>
+			</div>
+
+			<div class="footernav">
+				<div class="first" style=" width: 260px; height: 300px; margin-left: 30px; margin-top: 10px;">
+					<h3 style="color: white; border-bottom:1px solid white;" >Products</h3>
+					<ul>
+						<li> Actions Games</li>
+						<li> Sports Games</li>
+						<li> Managing Apps</li>
+						<li> Rooting Apps</li>
+						<li> Marketing Apps</li>
+						<li> Android Emulators</li>
+						<li> Free & Paid Apps</li>
+						<li> Android Tools</li>
+						<a href="https://www.apkplanet.net/submit-app/" style="color: white;"><li> Submit Apps</li></a>
+					</ul>
+
+				</div>
+				<div class="second" style=" width: 260px; height: 300px; margin-top: -350px; margin-left: 325px;">
+					<h3>Contact US</h3>
+					<br>
+					<div class="gg">
+					<h4 style="color: white;">Address</h4>
+					
+					<p>https://www.apkplanet.com/</p>
+					
+					<h4 style="color: white;">Phone Number</h4>
+					<p>+92 310 9327098</p>
+					
+					<h4 style="color: white;">Email Address</h4>
+					<p> Ali.Niamat.Nazir@gmail.com</p>
+					
+					<h4 style="color: white;">Working Days</h4>
+					<p>Working days! Mon-Saturday 09AM to 5PM</p>
+				</div>
+
+				</div>
+				<div class="third" style=" width: 260px; height: 300px; margin-top: -350px; margin-left: 620px;">
+					<div class="socialicon">
+						<h3>Follow US</h3>
+						<div class="zz">
+					<a href="https://www.facebook.com/">
+					<img src="../img/facebook.png" width="20px" height="15px" style="margin-left:20px; background-color: lightblue;" />
+					</a>
+					<a href="https://www.facebook.com/"><span style="margin-left: 5px; color: white;">Facebook</span></a>
+					<br />
+					<a href="https://twitter.com/">
+					<img src="../img/twitter.png" width="20px" height="15px" style="margin-left:20px;"/>
+					</a>
+					<a href="https://twitter.com/"><span style="margin-left: 5px; color: white;">Twitter</span></a>
+					<br />
+					<a href="https://www.instagram.com/">
+					<img src="../img/instagram.png" width="20px" height="15px" style="margin-left:20px;" />
+					</a>
+					<a href="https://www.instagram.com/"><span style="margin-left: 5px; color: white;">Instagram</span></a>
+					<br />
+					<a href="https://www.youtube.com/">
+					<img src="../img/youtube.png" width="20px" height="25px" style="margin-left:20px; margin-top: -50px;" />
+					</a>
+					<a href="https://www.youtube.com/"><span style="margin-left: 5px; color: white;">Youtube</span></a>
+				</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="bb">
+				<center><h3 style="margin-top: -90px; margin-left: -1000px; color: white; font-family: arial; font-size: 15px;">Copyright 2020. All Right Reserved</h3></center>
+
+			</div>
+</footer>
+
+</body>
+</html>
